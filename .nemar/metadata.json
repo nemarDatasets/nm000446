@@ -1,0 +1,137 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Christoph Wiest": {
+      "orcid": "0000-0001-5728-3951"
+    },
+    "Flavie Torrecillos": {},
+    "Alek Pogosyan": {},
+    "Fahd Baig": {},
+    "Erlick A. Pereira": {},
+    "Francesca Morgante": {},
+    "Keyoumars Ashkan": {},
+    "Huiling Tan": {
+      "orcid": "0000-0001-8038-3029"
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.5287/bodleian:mzJ7YwXvo",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.7554/eLife.82467",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.5287/bodleian:rJ7jyjX97",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000446",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000446",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "National Institute for Health Research (NIHR) Oxford Biomedical Research Centre"
+    },
+    {
+      "funder_name": "Rosetrees Trust"
+    },
+    {
+      "funder_name": "Medical Research Council",
+      "award_number": "MC_UU_00003/2"
+    },
+    {
+      "funder_name": "Medical Research Council",
+      "award_number": "MC_UU_00003/5"
+    },
+    {
+      "funder_name": "Medical Research Council",
+      "award_number": "MC_UU_00003/6"
+    },
+    {
+      "funder_name": "Medical Research Council",
+      "award_number": "MR/V00655X/1"
+    },
+    {
+      "funder_name": "Medical Research Council",
+      "award_number": "MR/P012272/1"
+    },
+    {
+      "funder_name": "National Institute for Health Research Oxford Biomedical Research Centre"
+    },
+    {
+      "funder_name": "Parkinson's UK",
+      "award_number": "G-0806"
+    }
+  ],
+  "title": "STN local field potentials from awake Parkinson's disease patients ON and OFF medication, with and without DBS (Wiest et al. 2023)",
+  "license": "CC-BY-SA-4.0",
+  "dataset_type": "raw",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "29.71 GB (150 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".mat",
+    ".py",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "Local field potential recordings from the subthalamic nucleus (STN), acquired together with scalp EEG and accelerometry from patients with Parkinson's disease 3-6 days after DBS surgery while leads were externalised. Recordings were made OFF and ON dopaminergic medication, at rest and during 130 Hz deep brain stimulation sessions. The data underlie an analysis showing that the aperiodic exponent of STN field potentials increases with levodopa and with STN DBS, and are provided here in BIDS format converted from Spike2 exports.",
+  "methods_description": "STN LFPs were recorded from externalised DBS leads (Medtronic, Boston Scientific or Abbott) using TMSi Porti (2048 Hz) or TMSi SAGA32 (4096 Hz) amplifiers, with scalp EEG and accelerometers. Stimulation used a custom in-house neurostimulator delivering symmetric biphasic constant-current 130 Hz pulses (60 us) at the middle contacts. Spike2 exports were repackaged as BrainVision float32 files with values unchanged.",
+  "keywords": [
+    {
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
+    },
+    {
+      "term": "Deep Brain Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
+    },
+    {
+      "term": "Subthalamic Nucleus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
+    },
+    {
+      "term": "Levodopa",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007980"
+    },
+    {
+      "term": "local field potential"
+    },
+    {
+      "term": "aperiodic exponent"
+    },
+    {
+      "term": "excitation/inhibition balance"
+    },
+    {
+      "term": "EEG"
+    }
+  ],
+  "source_hash": "5771aecc4b9becdfdd3f04fcffc7e8e5d1744b1b41e179416e07b612b701578b"
+}
