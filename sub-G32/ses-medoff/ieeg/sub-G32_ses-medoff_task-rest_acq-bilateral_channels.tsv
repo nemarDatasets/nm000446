@@ -1,0 +1,23 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	group	status	status_description	description
+Cz	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode Cz (recorded together with the STN LFPs; montage not documented in the release)
+CPz	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode CPz (recorded together with the STN LFPs; montage not documented in the release)
+CP3	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode CP3 (recorded together with the STN LFPs; montage not documented in the release)
+CP4	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode CP4 (recorded together with the STN LFPs; montage not documented in the release)
+L02	DBS	n/a	n/a	n/a	2048.0	left STN	good	n/a	left STN DBS-lead channel 'L02' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+L13	DBS	n/a	n/a	n/a	2048.0	left STN	good	n/a	left STN DBS-lead channel 'L13' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+R02	DBS	n/a	n/a	n/a	2048.0	right STN	good	n/a	right STN DBS-lead channel 'R02' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+R13	DBS	n/a	n/a	n/a	2048.0	right STN	good	n/a	right STN DBS-lead channel 'R13' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+EMG1	EMG	n/a	n/a	n/a	2048.0	n/a	good	n/a	EMG (label 'EMG1' as released; muscle not documented)
+EMG2	EMG	n/a	n/a	n/a	2048.0	n/a	good	n/a	EMG (label 'EMG2' as released; muscle not documented)
+Pho	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	release channel 'Pho', not documented in the release
+Acrx	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'Acrx' as released; placement and unit not documented)
+Acry	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'Acry' as released; placement and unit not documented)
+Acrz	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'Acrz' as released; placement and unit not documented)
+F-R13	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	online-derived copy of channel R13 (prefix 'F' as released; computation not documented in the release)
+F-R13_2	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	release label 'F-R13' occurs more than once in this file; renamed F-R13_2. online-derived copy of channel R13 (prefix 'F' as released; computation not documented in the release)
+S-R13	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	online-derived copy of channel R13 (prefix 'S' as released; computation not documented in the release)
+S-R13_2	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	release label 'S-R13' occurs more than once in this file; renamed S-R13_2. online-derived copy of channel R13 (prefix 'S' as released; computation not documented in the release)
+Am1	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	stimulation amplitude trace (label as released; scale/unit not documented; values 0 when no stimulation)
+Am2	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	stimulation amplitude trace (label as released; scale/unit not documented; values 0 when no stimulation)
+Rs1	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	release channel 'Rs1', not documented in the release
+Rs2	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	release channel 'Rs2', not documented in the release

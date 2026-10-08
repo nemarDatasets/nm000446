@@ -1,0 +1,5 @@
+onset	duration	trial_type	marker_channel	sample
+0.0	0.0	spike2_marker	Mark	0
+0.000488	0.0	spike2_marker	Mark	1
+2933.094238	0.0	spike2_marker	Mark	6006977
+3044.170898	0.0	spike2_marker	Mark	6234462

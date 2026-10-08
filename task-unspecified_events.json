@@ -1,0 +1,14 @@
+{
+  "trial_type": {
+    "Description": "Event type",
+    "Levels": {
+      "spike2_marker": "Spike2 marker (EvData) as released; meaning not documented"
+    }
+  },
+  "marker_channel": {
+    "Description": "Spike2 marker channel title (EvTits)"
+  },
+  "sample": {
+    "Description": "0-based sample index"
+  }
+}

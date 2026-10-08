@@ -1,0 +1,8 @@
+{
+  "source_files": {
+    "Description": "Release .mat file(s) this recording was converted from (two names = byte-identical files released under both hemisphere names)"
+  },
+  "source_format": {
+    "Description": "MAT-file version of the release file (v7.3 = HDF5, v5)"
+  }
+}

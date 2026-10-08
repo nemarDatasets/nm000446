@@ -1,0 +1,27 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	group	status	status_description	description
+Cz	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode Cz (recorded together with the STN LFPs; montage not documented in the release)
+C4	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode C4 (recorded together with the STN LFPs; montage not documented in the release)
+C3	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode C3 (recorded together with the STN LFPs; montage not documented in the release)
+Pz	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode Pz (recorded together with the STN LFPs; montage not documented in the release)
+CP4	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode CP4 (recorded together with the STN LFPs; montage not documented in the release)
+CP3	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode CP3 (recorded together with the STN LFPs; montage not documented in the release)
+L01	DBS	n/a	n/a	n/a	2048.0	left STN	good	n/a	left STN DBS-lead channel 'L01' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+L13	DBS	n/a	n/a	n/a	2048.0	left STN	good	n/a	left STN DBS-lead channel 'L13' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+EMGR	EMG	n/a	n/a	n/a	2048.0	n/a	good	n/a	EMG (label 'EMGR' as released; muscle not documented)
+AcXH	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'AcXH' as released; placement and unit not documented)
+AcYH	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'AcYH' as released; placement and unit not documented)
+AcZH	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'AcZH' as released; placement and unit not documented)
+AcXF	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'AcXF' as released; placement and unit not documented)
+AcYF	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'AcYF' as released; placement and unit not documented)
+AcZF	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'AcZF' as released; placement and unit not documented)
+F-L13	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	online-derived copy of channel L13 (prefix 'F' as released; computation not documented in the release)
+F-AcZH	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	online-derived copy of channel AcZH (prefix 'F' as released; computation not documented in the release)
+S-L13	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	online-derived copy of channel L13 (prefix 'S' as released; computation not documented in the release)
+S-AcZH	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	online-derived copy of channel AcZH (prefix 'S' as released; computation not documented in the release)
+Am1	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	stimulation amplitude trace (label as released; scale/unit not documented; values 0 when no stimulation)
+Am2	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	stimulation amplitude trace (label as released; scale/unit not documented; values 0 when no stimulation)
+Rs1	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	release channel 'Rs1', not documented in the release
+Rs2	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	release channel 'Rs2', not documented in the release
+Bet1	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	release channel 'Bet1', not documented in the release
+Bet2	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	release channel 'Bet2', not documented in the release
+Bet3	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	release channel 'Bet3', not documented in the release

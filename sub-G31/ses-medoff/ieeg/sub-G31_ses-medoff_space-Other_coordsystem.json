@@ -1,0 +1,5 @@
+{
+  "iEEGCoordinateSystem": "Other",
+  "iEEGCoordinateUnits": "n/a",
+  "iEEGCoordinateSystemDescription": "No contact coordinates are released (Wiest et al. 2023 localised leads with Lead-DBS, but the coordinates are not shared). Electrode rows are the DBS channels as labelled in the release, x/y/z n/a."
+}

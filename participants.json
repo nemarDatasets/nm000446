@@ -1,0 +1,18 @@
+{
+  "release_code": {
+    "Description": "Patient code used in the release file names (G = St George's, K = King's College Hospital series; X prefix as released, meaning not documented)"
+  },
+  "diagnosis": {
+    "Description": "Idiopathic Parkinson's disease (UK PD Society Brain Bank criteria; Wiest et al. 2023)"
+  },
+  "recruitment_site": {
+    "Description": "Recruiting hospital, from the site folder name in the original Spike2 export path (path removed from the shared files)"
+  },
+  "age": {
+    "Description": "Not published per patient",
+    "Units": "years"
+  },
+  "sex": {
+    "Description": "Not published per patient"
+  }
+}

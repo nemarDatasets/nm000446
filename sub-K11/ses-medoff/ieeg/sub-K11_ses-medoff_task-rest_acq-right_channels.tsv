@@ -1,0 +1,19 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	group	status	status_description	description
+CPz	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode CPz (recorded together with the STN LFPs; montage not documented in the release)
+Oz	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode Oz (recorded together with the STN LFPs; montage not documented in the release)
+R02	DBS	n/a	n/a	n/a	2048.0	right STN	good	n/a	right STN DBS-lead channel 'R02' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+R23	DBS	n/a	n/a	n/a	2048.0	right STN	good	n/a	right STN DBS-lead channel 'R23' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+EMG1	EMG	n/a	n/a	n/a	2048.0	n/a	good	n/a	EMG (label 'EMG1' as released; muscle not documented)
+EMG2	EMG	n/a	n/a	n/a	2048.0	n/a	good	n/a	EMG (label 'EMG2' as released; muscle not documented)
+Pho	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	release channel 'Pho', not documented in the release
+Aclx	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'Aclx' as released; placement and unit not documented)
+Acly	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'Acly' as released; placement and unit not documented)
+Aclz	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'Aclz' as released; placement and unit not documented)
+F-CPz	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	online-derived copy of channel CPz (prefix 'F' as released; computation not documented in the release)
+F-CPz_2	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	release label 'F-CPz' occurs more than once in this file; renamed F-CPz_2. online-derived copy of channel CPz (prefix 'F' as released; computation not documented in the release)
+S-CPz	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	online-derived copy of channel CPz (prefix 'S' as released; computation not documented in the release)
+S-CPz_2	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	release label 'S-CPz' occurs more than once in this file; renamed S-CPz_2. online-derived copy of channel CPz (prefix 'S' as released; computation not documented in the release)
+Am1	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	stimulation amplitude trace (label as released; scale/unit not documented; values 0 when no stimulation)
+Am2	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	stimulation amplitude trace (label as released; scale/unit not documented; values 0 when no stimulation)
+Rs1	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	release channel 'Rs1', not documented in the release
+Rs2	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	release channel 'Rs2', not documented in the release

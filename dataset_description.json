@@ -1,0 +1,57 @@
+{
+  "Name": "STN local field potentials from awake Parkinson's disease patients ON and OFF medication, with and without DBS (Wiest et al. 2023)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-SA-4.0",
+  "Authors": [
+    "Christoph Wiest",
+    "Flavie Torrecillos",
+    "Alek Pogosyan",
+    "Fahd Baig",
+    "Erlick A. Pereira",
+    "Francesca Morgante",
+    "Keyoumars Ashkan",
+    "Huiling Tan"
+  ],
+  "Acknowledgements": "Data collected and shared by the MRC Brain Network Dynamics Unit, University of Oxford (Tan group), with St George's University Hospital and King's College Hospital, London.",
+  "HowToAcknowledge": "Cite the dataset (Wiest C, Torrecillos F, Pogosyan A, Baig F, Pereira E, Morgante F, Ashkan K, Tan H. STN local field potential recordings from awake patients with Parkinson's, ON and OFF meds, and during 130 Hz DBS. Oxford University Research Archive, 2022, doi:10.5287/bodleian:mzJ7YwXvo) and Wiest C, et al. (2023) The aperiodic exponent of subthalamic field potentials reflects excitation/inhibition balance in Parkinsonism. eLife 12:e82467, doi:10.7554/eLife.82467.",
+  "Funding": [
+    "Medical Research Council (MC_UU_00003/2, MC_UU_00003/5, MC_UU_00003/6, MR/V00655X/1, MR/P012272/1)",
+    "National Institute for Health Research (NIHR) Oxford Biomedical Research Centre",
+    "Rosetrees Trust",
+    "Parkinson's UK (G-0806)"
+  ],
+  "EthicsApprovals": [
+    "Health Research Authority UK / National Research Ethics Service local Research Ethics Committee (IRAS: 46576)",
+    "Local ethics committee, University of Mainz (837.208.17 (11042))"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.5287/bodleian:mzJ7YwXvo",
+    "https://doi.org/10.7554/eLife.82467",
+    "https://data.mrc.ox.ac.uk/stn-lfp-on-off-and-dbs",
+    "https://doi.org/10.5287/bodleian:rJ7jyjX97"
+  ],
+  "Keywords": [
+    "subthalamic nucleus",
+    "local field potential",
+    "aperiodic exponent",
+    "excitation/inhibition balance",
+    "levodopa",
+    "deep brain stimulation",
+    "Parkinson's disease",
+    "EEG"
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.5287/bodleian:mzJ7YwXvo",
+      "URL": "https://data.mrc.ox.ac.uk/stn-lfp-on-off-and-dbs",
+      "Version": "MRC BNDU Cambium release (4 zips: Human- Meds- OFF, Human- Meds- ON- part 1/2, Human DBS)"
+    }
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "b3w12_convert_onoff.py",
+      "Description": "Spike2 MATLAB exports (SmrData) repackaged to BrainVision float32 with values unchanged (bit-exact); Spike2 marker times as events; code in code/."
+    }
+  ]
+}

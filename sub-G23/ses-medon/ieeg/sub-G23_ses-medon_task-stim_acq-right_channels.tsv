@@ -1,0 +1,20 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	group	status	status_description	description
+Fz	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode Fz (recorded together with the STN LFPs; montage not documented in the release)
+FCz	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode FCz (recorded together with the STN LFPs; montage not documented in the release)
+Cz	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode Cz (recorded together with the STN LFPs; montage not documented in the release)
+Oz	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode Oz (recorded together with the STN LFPs; montage not documented in the release)
+C3	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode C3 (recorded together with the STN LFPs; montage not documented in the release)
+C4	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode C4 (recorded together with the STN LFPs; montage not documented in the release)
+CP3	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode CP3 (recorded together with the STN LFPs; montage not documented in the release)
+CP4	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode CP4 (recorded together with the STN LFPs; montage not documented in the release)
+L02	DBS	n/a	n/a	n/a	2048.0	left STN	good	n/a	left STN DBS-lead channel 'L02' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+L13	DBS	n/a	n/a	n/a	2048.0	left STN	good	n/a	left STN DBS-lead channel 'L13' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+R02	DBS	n/a	n/a	n/a	2048.0	right STN	good	n/a	right STN DBS-lead channel 'R02' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+R13	DBS	n/a	n/a	n/a	2048.0	right STN	bad	constant value 0 in all samples of the release	right STN DBS-lead channel 'R13' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+F_L02	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	online-derived copy of channel L02 (prefix 'F' as released; computation not documented in the release)
+F_L13	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	online-derived copy of channel L13 (prefix 'F' as released; computation not documented in the release)
+S_L02	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	online-derived copy of channel L02 (prefix 'S' as released; computation not documented in the release)
+S_L13	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	online-derived copy of channel L13 (prefix 'S' as released; computation not documented in the release)
+Ch2	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	release channel 'Ch2', not documented in the release
+Amp2	MISC	n/a	n/a	n/a	2048.0	n/a	bad	constant value 0 in all samples of the release	stimulation amplitude trace (label as released; scale/unit not documented; values 0 when no stimulation)
+R02-DcRem	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	release channel 'R02-DcRem', not documented in the release
