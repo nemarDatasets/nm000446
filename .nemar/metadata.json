@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "STN local field potentials from awake Parkinson's disease patients ON and OFF medication, with and without DBS (Wiest et al. 2023)",
+  "description": "Local field potentials from the subthalamic nucleus (STN), recorded together with scalp EEG and accelerometry, from patients with Parkinson's disease 3-6 days after DBS surgery while the leads were externalised. Recordings were made OFF and ON dopaminergic medication, at rest and during sessions with 130 Hz STN deep brain stimulation. The data support analysis of how the aperiodic exponent of STN field potentials changes with levodopa and DBS, reflecting excitation/inhibition balance.",
+  "methods_description": "STN lead channels (Medtronic, Boston Scientific or Abbott leads) were recorded with TMSi Porti (2048 Hz) or TMSi SAGA32 (4096 Hz) amplifiers alongside scalp EEG and accelerometers, and exported from Spike2 to MATLAB. Stimulation used a custom in-house neurostimulator delivering symmetric biphasic constant-current 130 Hz pulses (60 us) at the middle contacts. Data were converted to BIDS with BrainVision float32 files holding the original values unchanged.",
+  "license": "CC-BY-SA-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Christoph Wiest": {
       "orcid": "0000-0001-5728-3951"
@@ -15,6 +20,40 @@
       "orcid": "0000-0001-8038-3029"
     }
   },
+  "keywords": [
+    {
+      "term": "Subthalamic Nucleus",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
+    },
+    {
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
+    },
+    {
+      "term": "Deep Brain Stimulation",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
+    },
+    {
+      "term": "Levodopa",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007980"
+    },
+    {
+      "term": "local field potential"
+    },
+    {
+      "term": "aperiodic exponent"
+    },
+    {
+      "term": "excitation/inhibition balance"
+    },
+    {
+      "term": "EEG"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.5287/bodleian:mzJ7YwXvo",
@@ -70,21 +109,15 @@
       "award_number": "MR/P012272/1"
     },
     {
-      "funder_name": "National Institute for Health Research Oxford Biomedical Research Centre"
-    },
-    {
       "funder_name": "Parkinson's UK",
       "award_number": "G-0806"
     }
   ],
-  "title": "STN local field potentials from awake Parkinson's disease patients ON and OFF medication, with and without DBS (Wiest et al. 2023)",
-  "license": "CC-BY-SA-4.0",
-  "dataset_type": "raw",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
     "29.71 GB (150 files)"
   ],
@@ -92,46 +125,12 @@
     ".eeg",
     ".json",
     ".mat",
+    ".md",
     ".py",
     ".tsv",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "Local field potential recordings from the subthalamic nucleus (STN), acquired together with scalp EEG and accelerometry from patients with Parkinson's disease 3-6 days after DBS surgery while leads were externalised. Recordings were made OFF and ON dopaminergic medication, at rest and during 130 Hz deep brain stimulation sessions. The data underlie an analysis showing that the aperiodic exponent of STN field potentials increases with levodopa and with STN DBS, and are provided here in BIDS format converted from Spike2 exports.",
-  "methods_description": "STN LFPs were recorded from externalised DBS leads (Medtronic, Boston Scientific or Abbott) using TMSi Porti (2048 Hz) or TMSi SAGA32 (4096 Hz) amplifiers, with scalp EEG and accelerometers. Stimulation used a custom in-house neurostimulator delivering symmetric biphasic constant-current 130 Hz pulses (60 us) at the middle contacts. Spike2 exports were repackaged as BrainVision float32 files with values unchanged.",
-  "keywords": [
-    {
-      "term": "Parkinson Disease",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
-    },
-    {
-      "term": "Deep Brain Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
-    },
-    {
-      "term": "Subthalamic Nucleus",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
-    },
-    {
-      "term": "Levodopa",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D007980"
-    },
-    {
-      "term": "local field potential"
-    },
-    {
-      "term": "aperiodic exponent"
-    },
-    {
-      "term": "excitation/inhibition balance"
-    },
-    {
-      "term": "EEG"
-    }
-  ],
-  "source_hash": "5771aecc4b9becdfdd3f04fcffc7e8e5d1744b1b41e179416e07b612b701578b"
+  "source_hash": "3edd6ed0c48d7376ee6025017a420a23ea72773ddc4cb4eb60fa026f9e625091"
 }
