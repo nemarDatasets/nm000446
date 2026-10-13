@@ -53,5 +53,7 @@
       "Name": "b3w12_convert_onoff.py",
       "Description": "Spike2 MATLAB exports (SmrData) repackaged to BrainVision float32 with values unchanged (bit-exact); Spike2 marker times as events; code in code/."
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000446",
+  "Version": "1.0.0"
 }
