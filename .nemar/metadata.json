@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "STN local field potentials from awake Parkinson's disease patients ON and OFF medication, with and without DBS (Wiest et al. 2023)",
-  "description": "Local field potential recordings from the subthalamic nucleus, acquired together with scalp EEG and accelerometry, from patients with Parkinson's disease 3-6 days after deep brain stimulation (DBS) surgery while the leads were externalised. Recordings were made OFF and ON dopaminergic medication, at rest and during 130 Hz STN stimulation. The data supported an analysis showing that the aperiodic exponent of STN field potentials increases with levodopa and with DBS, reflecting excitation/inhibition balance.",
-  "methods_description": "STN lead channels (Medtronic, Boston Scientific or Abbott leads) were recorded with TMSi Porti (2048 Hz) or TMSi SAGA32 (4096 Hz) amplifiers and exported from Spike2 to MATLAB. Stimulation used a custom in-house neurostimulator delivering symmetric biphasic constant-current 130 Hz pulses at the middle contacts. Recordings were made at rest and during stimulation sessions in OFF and ON medication states, and were converted to BrainVision float32 with values unchanged.",
+  "description": "Local field potentials from the subthalamic nucleus (STN), recorded together with scalp EEG and accelerometry, from patients with Parkinson's disease 3-6 days after DBS surgery while the leads were externalised. Recordings were made OFF and ON dopaminergic medication, at rest and during 130 Hz STN stimulation sessions. The data were used to show that the aperiodic exponent of STN field potentials rises with levodopa and with DBS, reflecting excitation/inhibition balance.",
+  "methods_description": "STN lead channels (Medtronic, Boston Scientific or Abbott leads) were recorded with TMSi Porti (2048 Hz) or TMSi SAGA32 (4096 Hz) amplifiers alongside scalp EEG and accelerometers. Stimulation used a custom in-house neurostimulator delivering symmetric biphasic constant-current 130 Hz pulses at the middle contacts. Spike2 exports were repackaged to BrainVision float32 with values unchanged.",
   "license": "CC-BY-SA-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -46,9 +46,6 @@
     },
     {
       "term": "aperiodic exponent"
-    },
-    {
-      "term": "excitation/inhibition balance"
     },
     {
       "term": "EEG"
@@ -107,6 +104,9 @@
     {
       "funder_name": "Medical Research Council",
       "award_number": "MR/P012272/1"
+    },
+    {
+      "funder_name": "National Institute for Health Research Oxford Biomedical Research Centre"
     },
     {
       "funder_name": "Parkinson's UK",
