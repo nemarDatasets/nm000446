@@ -1,5 +1,5 @@
 {
-  "Name": "Wiest-2023-aperiodic-10.7554/elife.82467",
+  "Name": "STN local field potentials from awake Parkinson's disease patients ON and OFF medication, with and without DBS (Wiest et al. 2023)",
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC-BY-SA-4.0",
@@ -55,5 +55,5 @@
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000446",
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
