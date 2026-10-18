@@ -1,1 +1,17 @@
-/annex/objects/SHA256E-s532--38f9bcfc4dcbf6415044d5b7f10653be2b931e86547d9d74f6b1ad55846397c0.vhdr
+Brain Vision Data Exchange Header File Version 1.0
+; b3w12_convert_onoff.py: SmrData.WvData of G27_leSTN_OFF.mat, values unchanged (all exactly representable in float32; unit not stated in the release)
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-G27_ses-medoff_task-unspecified_acq-left_ieeg.eeg
+MarkerFile=sub-G27_ses-medoff_task-unspecified_acq-left_ieeg.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+NumberOfChannels=1
+SamplingInterval=244.140625
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+Ch1=L13,,1.0,µV

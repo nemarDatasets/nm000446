@@ -1,1 +1,43 @@
-/annex/objects/SHA256E-s972--df345385f03cb3124e6065f38a816adc79035e6b16b0a9192f8e312dc3587e44.vhdr
+Brain Vision Data Exchange Header File Version 1.0
+; b3w12_convert_onoff.py: SmrData.WvData of K8_leSTN_ON.mat, values unchanged (all exactly representable in float32; unit not stated in the release)
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-K8_ses-medon_task-stim_acq-left_ieeg.eeg
+MarkerFile=sub-K8_ses-medon_task-stim_acq-left_ieeg.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+NumberOfChannels=27
+SamplingInterval=244.140625
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+Ch1=L0,,1.0,µV
+Ch2=L2,,1.0,µV
+Ch3=L3,,1.0,µV
+Ch4=R0,,1.0,µV
+Ch5=R1,,1.0,µV
+Ch6=R2,,1.0,µV
+Ch7=R3,,1.0,µV
+Ch8=Cz,,1.0,µV
+Ch9=C3,,1.0,µV
+Ch10=C4,,1.0,µV
+Ch11=CPz,,1.0,µV
+Ch12=CP3,,1.0,µV
+Ch13=CP4,,1.0,µV
+Ch14=L02,,1.0,µV
+Ch15=RFex,,1.0,n/a
+Ch16=RFfl,,1.0,n/a
+Ch17=AcXL,,1.0,n/a
+Ch18=AcYL,,1.0,n/a
+Ch19=AcZL,,1.0,n/a
+Ch20=F-L0,,1.0,n/a
+Ch21=F-L2,,1.0,n/a
+Ch22=S-L0,,1.0,n/a
+Ch23=S-L2,,1.0,n/a
+Ch24=Am1,,1.0,n/a
+Ch25=Am2,,1.0,n/a
+Ch26=Rs1,,1.0,n/a
+Ch27=Rs2,,1.0,n/a

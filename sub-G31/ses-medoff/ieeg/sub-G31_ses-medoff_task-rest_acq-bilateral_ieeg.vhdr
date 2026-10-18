@@ -1,1 +1,40 @@
-/annex/objects/SHA256E-s964--7f22184cbf9d6f1934639a3e9c959ab5388f66088b06bde2feac8f20f712eff7.vhdr
+Brain Vision Data Exchange Header File Version 1.0
+; b3w12_convert_onoff.py: SmrData.WvData of G31_leSTN_OFF.mat = G31_riSTN_OFF.mat, values unchanged (all exactly representable in float32; unit not stated in the release)
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-G31_ses-medoff_task-rest_acq-bilateral_ieeg.eeg
+MarkerFile=sub-G31_ses-medoff_task-rest_acq-bilateral_ieeg.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+NumberOfChannels=24
+SamplingInterval=488.28125
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+Ch1=Cz,,1.0,µV
+Ch2=C3,,1.0,µV
+Ch3=C4,,1.0,µV
+Ch4=CPz,,1.0,µV
+Ch5=CP3,,1.0,µV
+Ch6=CP4,,1.0,µV
+Ch7=L02,,1.0,µV
+Ch8=L13,,1.0,µV
+Ch9=R02,,1.0,µV
+Ch10=R13,,1.0,µV
+Ch11=EMG1,,1.0,µV
+Ch12=EMG2,,1.0,µV
+Ch13=Pho,,1.0,n/a
+Ch14=Aclx,,1.0,n/a
+Ch15=Acly,,1.0,n/a
+Ch16=Aclz,,1.0,n/a
+Ch17=F-Cz,,1.0,n/a
+Ch18=F-Cz_2,,1.0,n/a
+Ch19=S-Cz,,1.0,n/a
+Ch20=S-Cz_2,,1.0,n/a
+Ch21=Am1,,1.0,n/a
+Ch22=Am2,,1.0,n/a
+Ch23=Rs1,,1.0,n/a
+Ch24=Rs2,,1.0,n/a

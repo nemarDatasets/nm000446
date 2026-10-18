@@ -1,1 +1,34 @@
-/annex/objects/SHA256E-s818--8ec321a7fcc682120cd3c903c357bd61613225275063d008595a6ebdb52e2269.vhdr
+Brain Vision Data Exchange Header File Version 1.0
+; b3w12_convert_onoff.py: SmrData.WvData of G10_leSTN_ON.mat, values unchanged (all exactly representable in float32; unit not stated in the release)
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-G10_ses-medon_task-stim_acq-left_ieeg.eeg
+MarkerFile=sub-G10_ses-medon_task-stim_acq-left_ieeg.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+NumberOfChannels=18
+SamplingInterval=488.28125
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+Ch1=Fz,,1.0,µV
+Ch2=Cz,,1.0,µV
+Ch3=F3,,1.0,µV
+Ch4=F4,,1.0,µV
+Ch5=C3,,1.0,µV
+Ch6=C4,,1.0,µV
+Ch7=CP3,,1.0,µV
+Ch8=CP4,,1.0,µV
+Ch9=Le02,,1.0,µV
+Ch10=R02,,1.0,µV
+Ch11=AcX,,1.0,n/a
+Ch12=AcY,,1.0,n/a
+Ch13=F_Le02,,1.0,n/a
+Ch14=F_R02,,1.0,n/a
+Ch15=S_Le02,,1.0,n/a
+Ch16=S_R02,,1.0,n/a
+Ch17=Ch1,,1.0,n/a
+Ch18=Ch2,,1.0,n/a

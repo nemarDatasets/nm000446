@@ -1,1 +1,34 @@
-/annex/objects/SHA256E-s834--36d010372068af9b76053219c1ffd0d3049cd900cb591183289e619e1340e22c.vhdr
+Brain Vision Data Exchange Header File Version 1.0
+; b3w12_convert_onoff.py: SmrData.WvData of K11_riSTN_OFF.mat, values unchanged (all exactly representable in float32; unit not stated in the release)
+
+[Common Infos]
+Codepage=UTF-8
+DataFile=sub-K11_ses-medoff_task-rest_acq-right_ieeg.eeg
+MarkerFile=sub-K11_ses-medoff_task-rest_acq-right_ieeg.vmrk
+DataFormat=BINARY
+DataOrientation=MULTIPLEXED
+NumberOfChannels=18
+SamplingInterval=488.28125
+
+[Binary Infos]
+BinaryFormat=IEEE_FLOAT_32
+
+[Channel Infos]
+Ch1=CPz,,1.0,µV
+Ch2=Oz,,1.0,µV
+Ch3=R02,,1.0,µV
+Ch4=R23,,1.0,µV
+Ch5=EMG1,,1.0,µV
+Ch6=EMG2,,1.0,µV
+Ch7=Pho,,1.0,n/a
+Ch8=Aclx,,1.0,n/a
+Ch9=Acly,,1.0,n/a
+Ch10=Aclz,,1.0,n/a
+Ch11=F-CPz,,1.0,n/a
+Ch12=F-CPz_2,,1.0,n/a
+Ch13=S-CPz,,1.0,n/a
+Ch14=S-CPz_2,,1.0,n/a
+Ch15=Am1,,1.0,n/a
+Ch16=Am2,,1.0,n/a
+Ch17=Rs1,,1.0,n/a
+Ch18=Rs2,,1.0,n/a

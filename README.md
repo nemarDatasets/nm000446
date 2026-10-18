@@ -98,11 +98,8 @@ The release has no names in the signals. The identifying metadata in the exports
 hospital study numbers, site folders and staff user names) were removed as described above. MAT-file creation dates keep
 only the year and month.
 
-## Units when reading with MNE (added 2026-10-17, version 1.0.3)
+## Units (updated 2026-10-19, version 1.0.3)
 
-The release does not state the physical unit of the signal values, so the BrainVision headers and channels.tsv give
-the unit `n/a` (resolution 1) and the values are the release's numbers, unchanged. MNE and MNE-BIDS read a channel
-with unit `n/a` as volts with scale 1: `raw.get_data()` returns the stored numbers as they are, labelled V. If the
-numbers are microvolt-sized, anything that assumes volts (plot scalings, rejection thresholds, µV conversions) sees
-them 1e6 times too large. In the 2026-10-17 check the channels had a robust SD of about 5-23 in the runs read. No unit is assigned here because the source does not state one; treat the values as the
-release's numbers in an unknown unit.
+DBS, ECG, EEG, EMG channels of 44 recordings now say `µV` in channels.tsv and in the BrainVision headers (were `n/a`). MISC channels (online-derived copies, accelerometers, stimulation amplitude, undocumented channels) stay `n/a`. **Unit inferred, not stated in the release** (the Spike2-to-MATLAB `SmrData` export keeps no unit). Evidence: (1) the recordings were made with TMSi amplifiers and exported through Spike2 by the MRC Brain Network Dynamics Unit, the same chain as the unit's essential-tremor release (He & Tan 2025, doi:10.60964/bndu-kshc-a492), whose Spike2 channel headers state the unit as µV; (2) the stored values sit on Spike2 int16 grids: 0.0625-0.0698 (TMSi Porti files, e.g. G23) and 0.078-0.080 (K6 medication-off), the step family of the µV Spike2 channels of that essential-tremor release (0.066-0.098), and 0.0100 (TMSi SAGA files, e.g. K6 medication-on, XG37); (3) robust SD after a 1 Hz high-pass DBS 6-12, EEG 2.6-10 (5 release files, 19 Oct 2026; 5-23 in the 17 Oct check): only µV is physiologically possible (as V or mV the values would be volts or millivolts). Values unchanged. The five author-processed single-channel files listed above stay in sourcedata only (not converted).
+
+Reading with MNE: `raw.get_data()` now returns volts (stored µV x 1e-6) for these channels; MISC channels with unit `n/a` are still read as volts with scale 1. Evidence files: fix1019 `out/pubamp/` (Voyager Jobs ieeg-f19-pa-*, 19 Oct 2026).
