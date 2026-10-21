@@ -1,10 +1,10 @@
 name	type	units	low_cutoff	high_cutoff	sampling_frequency	group	status	status_description	description
-CPz	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode CPz (recorded together with the STN LFPs; montage not documented in the release)
-Oz	EEG	n/a	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode Oz (recorded together with the STN LFPs; montage not documented in the release)
-R02	DBS	n/a	n/a	n/a	2048.0	right STN	good	n/a	right STN DBS-lead channel 'R02' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
-R23	DBS	n/a	n/a	n/a	2048.0	right STN	good	n/a	right STN DBS-lead channel 'R23' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
-EMG1	EMG	n/a	n/a	n/a	2048.0	n/a	good	n/a	EMG (label 'EMG1' as released; muscle not documented)
-EMG2	EMG	n/a	n/a	n/a	2048.0	n/a	good	n/a	EMG (label 'EMG2' as released; muscle not documented)
+CPz	EEG	µV	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode CPz (recorded together with the STN LFPs; montage not documented in the release)
+Oz	EEG	µV	n/a	n/a	2048.0	n/a	good	n/a	scalp EEG electrode Oz (recorded together with the STN LFPs; montage not documented in the release)
+R02	DBS	µV	n/a	n/a	2048.0	right STN	good	n/a	right STN DBS-lead channel 'R02' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+R23	DBS	µV	n/a	n/a	2048.0	right STN	good	n/a	right STN DBS-lead channel 'R23' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+EMG1	EMG	µV	n/a	n/a	2048.0	n/a	good	n/a	EMG (label 'EMG1' as released; muscle not documented)
+EMG2	EMG	µV	n/a	n/a	2048.0	n/a	good	n/a	EMG (label 'EMG2' as released; muscle not documented)
 Pho	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	release channel 'Pho', not documented in the release
 Aclx	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'Aclx' as released; placement and unit not documented)
 Acly	MISC	n/a	n/a	n/a	2048.0	n/a	good	n/a	accelerometer axis (label 'Acly' as released; placement and unit not documented)

@@ -1,2 +1,2 @@
 name	type	units	low_cutoff	high_cutoff	sampling_frequency	group	status	status_description	description
-L13	DBS	n/a	n/a	n/a	4096.0	left STN	good	n/a	left STN DBS-lead channel 'L13' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)
+L13	DBS	µV	n/a	n/a	4096.0	left STN	good	n/a	left STN DBS-lead channel 'L13' as labelled in the release (digits = contact numbers; the release does not document monopolar vs bipolar montage; Wiest et al. 2023 analysed bipolar channels from the contacts adjacent to the stimulation contact, directional contacts fused to a ring)

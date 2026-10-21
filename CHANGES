@@ -1,3 +1,6 @@
+1.0.3 2026-10-21
+  - Units: DBS, EEG, EMG and ECG channels declared µV in channels.tsv (were n/a), after Wiest et al. 2023 Fig. 2B/3A; data and .vhdr headers unchanged.
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 

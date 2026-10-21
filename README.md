@@ -56,7 +56,10 @@ and consent to publish, was obtained before surgery.
     amplitude (Amp*/Am*), and channels the release does not document (Ch1/Ch2, Rs*, Ax*, *Fex/*Ffl, Code, Ph/Pho, Snd,
     Virtual, ...). Labels that occur more than once in a file (e.g. 'Virtual') get a suffix _2, _3, ...
   - Channels that are constant in the release are marked `bad`.
-- Units are not stated in the release, so channels.tsv lists them as n/a. The values are the release's float64 numbers.
+- Units (updated 21 Oct 2026): DBS, EEG, EMG and ECG channels are µV in channels.tsv. Wiest et al. (2023) plot the spectra of these
+  STN-LFP recordings in µV²/Hz (Fig. 2B, 3A); EEG, EMG and ECG come from the same TMSi amplifier and sit on the same Spike2 export
+  grid as the LFP of each file. Other channels stay n/a. The .vhdr headers still say n/a (MNE reads that as volts, so scale by
+  1e-6). The values are the release's float64 numbers.
   Every sample is exactly representable in float32, so the BrainVision IEEE_FLOAT_32 files hold the values unchanged. This
   was checked per channel by the converter (code/conversion_report.json).
 - events.tsv: Spike2 marker times (EvData/EvTits, e.g. 'Mark') where the release has them. They are undocumented keyboard or
