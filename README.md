@@ -103,3 +103,14 @@ SHA-256 of the original and the edited files: code/conversion_report.json.
 The release has no names in the signals. The identifying metadata in the exports (file names and paths with recording dates,
 hospital study numbers, site folders and staff user names) were removed as described above. MAT-file creation dates keep
 only the year and month.
+
+## Data-quality notes (fix-20261030, Oct 2026)
+
+- sub-K6 `ses-medoff` (rest, 157 s): the DBS and EEG channels carry large slow excursions of the baseline. Per 1-s window,
+  the RMS around the file mean is 30-150 stored units (median per DBS channel) against about 8 in `ses-medon`, with 10-s
+  averages up to 318 (R2) in the first 60 s and again rising over the last 40 s; the within-second peak-to-peak range
+  (50-110) is much less affected, so the excursions are slow drifts or transients rather than broadband noise. The
+  release does not annotate them. High-pass filter or exclude these stretches before analysis; they are kept unchanged.
+- sub-G24: channels that are constant for the whole release file are already marked `bad` with "constant value 0 in all
+  samples of the release": FC3/FC4 (both `acq-left` files), R13 (`acq-right`, both sessions), L13 (`ses-medon` `acq-left`),
+  the accelerometer axis AcZ in `ses-medoff` `acq-right`, and the unused stimulator inputs Amp2/Ch2.
