@@ -1,3 +1,10 @@
+Unreleased (branch fix-20261030, Oct 2026)
+  - README: data-quality notes (sub-K6 medoff baseline excursions; list of the sub-G24 constant channels already marked bad).
+
+1.0.4 2026-10-30
+
+  - Document artefact transients and a constant accelerometer axis
+
 1.0.3 2026-10-22
   - README: the units of the DBS, EEG, EMG and ECG channels stay n/a because no source states a unit or calibration; the README lists the evidence checked and how to read the values (receipt in code/receipts/). Data, channels.tsv and .vhdr headers unchanged.
 
